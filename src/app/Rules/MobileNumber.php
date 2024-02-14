@@ -15,7 +15,7 @@ class MobileNumber implements Rule
      */
     public function passes($attribute, $value)
     {
-        $mobile_number  =  config('validation::validation.mobile_number_digit');
+        $mobile_number_digit  =  config('validation::validation.mobile_number_digit');
         return preg_match('/^\+[0-9]{2,3}\-[0-9]{10}$/', $value);
     }
 

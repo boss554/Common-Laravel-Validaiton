@@ -19,8 +19,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kody\\Validation\\ValidationServiceProvider"
+                "Kody\\Common\\CommonServiceProvider"
             ]
         }
-    },
+    }
 }
